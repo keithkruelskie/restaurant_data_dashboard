@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graph-It</title>
+</head>
+<body>
+	<form action="/submit">
+		<p>
+			<label for="x_var">X Variable:</label>
+			<select id="x_var" name="x_var">
+				<option value='Count of English Learner Students'>Count of English Learner Students</option>
+				<option value= 'Count of At Risk Students' >Count of At Risk Students</option>
+				<option value= 'Sum of Enrollment by Sector and Grade Band' >Sum Enrollment</option>
+			</select>
+		</p>
+		<p>
+			<label for="y_var">Y Variable:</label>
+			<select id="y_var" name="y_var">
+				<option value='Count of English Learner Students'>Count of English Learner Students</option>
+				<option value= 'Count of At Risk Students' >Count of At Risk Students</option>
+				<option value= 'Sum of Enrollment by Sector and Grade Band' >Sum Enrollment</option>
+				
+			</select>
+		</p>
+		<p>
+			<label for="hue">Color By:</label>
+			<select id="hue" name="hue">
+				<option value=1>Truancy Count</option>
+				<option value=2>Truancy Percent</option>
+				<option value=3>Graduates/Truancy</option>
+				<option value=4>Graduates</option>
+			</select>
+		</p>
+		<p>
+			<label for="year">Year:</label>
+			<select id="year" name="year">
+				<option value=2013>SY 2013-2014</option>
+				<option value=2014>SY 2014-2015</option>
+				<option value=2015>SY 2015-2016</option>
+				<option value=2016>SY 2016-2017</option>
+			</select>
+		</p>
+		<p><button type="submit">Submit</button></p>
+	</form>
+</body>
+</html>

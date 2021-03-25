@@ -1,0 +1,76 @@
+Neighborhood Cluster,Neighborhood Cluster Names,School Year_x,Count of English Learner Students,English Learner Students as  share of Neighborhood Cluster,Count of At Risk Students,At Risk as share of Neighborhood Cluster,Count of Special Education Students,Special Education Students as share of Neighborhood Cluster,Sum of Enrollment by Sector and Grade Band,Sum of Total Enrollment (DCPS & PCS)
+Cluster 1,"Kalorama Heights, Adams Morgan, Lanier Heights",SY17-18,203,0.27,174,0.23,82,0.11,1504,2383
+Cluster 10,"Hawthorne, Barnaby Woods, Chevy Chase",SY17-18,63,0.04,62,0.04,106,0.06,816,816
+Cluster 11,"Friendship Heights, American University Park, Tenleytown",SY17-18,48,0.03,40,0.03,94,0.07,4041,4041
+Cluster 12,"North Cleveland Park, Forest Hills, Van Ness",SY17-18,115,0.17,52,0.08,52,0.07,573,573
+Cluster 13,"Spring Valley, Palisades, Wesley Heights, Foxhall Crescent, Foxhall Village, Georgetown Reservoir",SY17-18,43,0.06,26,0.03,52,0.07,817,817
+Cluster 14,"Cathedral Heights, McLean Gardens, Glover Park",SY17-18,171,0.17,68,0.07,60,0.06,438,438
+Cluster 15,"Cleveland Park, Woodley Park, Massachusetts Avenue Heights, Woodland-Normanstone Terrace",SY17-18,62,0.1,30,0.05,43,0.07,1465,1465
+Cluster 16,"Colonial Village, Shepherd Park, North Portal Estates",SY17-18,47,0.09,61,0.12,57,0.11,364,364
+Cluster 17,"Takoma, Brightwood, Manor Park",SY17-18,1531,0.37,1470,0.36,503,0.12,4456,8912
+Cluster 18,"Brightwood Park, Crestwood, Petworth",SY17-18,2164,0.32,2406,0.36,883,0.13,7949,15383
+Cluster 19,"Lamont Riggs, Queens Chapel, Fort Totten, Pleasant Hill",SY17-18,802,0.29,1086,0.41,403,0.15,2550,5100
+Cluster 2,"Columbia Heights, Mt. Pleasant, Pleasant Plains, Park View",SY17-18,2276,0.37,2467,0.42,889,0.14,8171,13551
+Cluster 20,"North Michigan Park, Michigan Park, University Heights",SY17-18,125,0.1,371,0.29,179,0.14,1060,2120
+Cluster 21,"Edgewood, Bloomingdale, Truxton Circle, Eckington",SY17-18,302,0.11,1154,0.44,377,0.14,5837,11674
+Cluster 22,"Brookland, Brentwood, Langdon",SY17-18,212,0.09,1052,0.44,342,0.14,2235,3958
+Cluster 23,"Ivy City, Arboretum, Trinidad, Carver Langston",SY17-18,275,0.1,1581,0.57,458,0.16,3453,6854
+Cluster 24,"Woodridge, Fort Lincoln, Gateway",SY17-18,83,0.06,473,0.35,168,0.12,515,515
+Cluster 25,"Union Station, Stanton Park, Kingman Park",SY17-18,75,0.02,1009,0.33,387,0.13,4903,9563
+Cluster 26,"Capitol Hill, Lincoln Park",SY17-18,73,0.03,672,0.26,269,0.1,3988,7459
+Cluster 27,"Near Southeast, Navy Yard",SY17-18,N<10,N<10,119,0.36,51,0.15,649,1029
+Cluster 28,Historic Anacostia,SY17-18,13,0.01,1029,0.69,265,0.18,614,1228
+Cluster 3,"Howard University, Le Droit Park, Cardozo/Shaw",SY17-18,88,0.15,227,0.41,80,0.14,1305,2136
+Cluster 30,"Mayfair, Hillbrook, Mahaning Heights",SY17-18,66,0.03,1179,0.58,328,0.16,1944,1944
+Cluster 31,"Deanwood, Burrville, Grant Park, Lincoln Heights, Fairmont Heights",SY17-18,71,0.02,2089,0.61,612,0.18,3518,7036
+Cluster 32,"River Terrace, Benning, Greenway, Dupont Park",SY17-18,85,0.03,1798,0.6,508,0.17,1622,2229
+Cluster 33,"Capitol View, Marshall Heights, Benning Heights",SY17-18,177,0.04,2632,0.58,748,0.16,3242,5854
+Cluster 34,"Twining, Fairlawn, Randle Highlands, Penn Branch, Fort Davis Park, Fort Dupont",SY17-18,47,0.02,1682,0.56,483,0.16,1786,1786
+Cluster 36,"Woodland/Fort Stanton, Garfield Heights, Knox Hill",SY17-18,10,0,1602,0.74,416,0.19,1321,2642
+Cluster 37,"Sheridan, Barry Farm, Buena Vista",SY17-18,17,0.01,1716,0.68,446,0.17,3864,6376
+Cluster 38,"Douglas, Shipley Terrace",SY17-18,40,0.01,2566,0.68,680,0.17,1155,2055
+Cluster 39,"Congress Heights, Bellevue, Washington Highlands",SY17-18,66,0.01,5609,0.68,1443,0.17,9122,18244
+Cluster 4,"Georgetown, Burleith/Hillandale",SY17-18,36,0.15,11,0.05,16,0.07,392,392
+Cluster 5,"West End, Foggy Bottom, GWU",SY17-18,11,0.09,19,0.16,N<10,N<10,1421,2369
+Cluster 6,"Dupont Circle, Connecticut Avenue/K Street",SY17-18,64,0.21,22,0.07,18,0.06,174,174
+Cluster 7,"Shaw, Logan Circle",SY17-18,396,0.25,716,0.47,221,0.14,1903,3503
+Cluster 8,"Downtown, Chinatown, Penn Quarters, Mount Vernon Square, North Capitol Street",SY17-18,113,0.1,657,0.57,201,0.17,1339,2518
+Cluster 9,"Southwest Employment Area, Southwest/Waterfront, Fort McNair, Buzzard Point",SY17-18,35,0.03,631,0.59,204,0.19,969,1938
+Cluster 1,"Kalorama Heights, Adams Morgan, Lanier Heights",SY18-19,195,0.25,167,0.22,88,0.11,824,824
+Cluster 10,"Hawthorne, Barnaby Woods, Chevy Chase",SY18-19,88,0.05,53,0.03,121,0.07,887,887
+Cluster 11,"Friendship Heights, American University Park, Tenleytown",SY18-19,61,0.04,47,0.03,114,0.08,4042,4042
+Cluster 12,"North Cleveland Park, Forest Hills, Van Ness",SY18-19,122,0.16,75,0.1,56,0.07,601,601
+Cluster 13,"Spring Valley, Palisades, Wesley Heights, Foxhall Crescent, Foxhall Village, Georgetown Reservoir",SY18-19,40,0.05,24,0.03,58,0.08,796,796
+Cluster 14,"Cathedral Heights, McLean Gardens, Glover Park",SY18-19,205,0.19,65,0.06,70,0.06,463,463
+Cluster 15,"Cleveland Park, Woodley Park, Massachusetts Avenue Heights, Woodland-Normanstone Terrace",SY18-19,68,0.1,28,0.04,48,0.07,1511,1511
+Cluster 16,"Colonial Village, Shepherd Park, North Portal Estates",SY18-19,56,0.1,62,0.11,66,0.12,379,379
+Cluster 17,"Takoma, Brightwood, Manor Park",SY18-19,1567,0.37,1313,0.32,555,0.13,4811,9622
+Cluster 18,"Brightwood Park, Crestwood, Petworth",SY18-19,2189,0.32,2161,0.32,918,0.13,7650,14652
+Cluster 19,"Lamont Riggs, Queens Chapel, Fort Totten, Pleasant Hill",SY18-19,890,0.31,1081,0.39,448,0.16,3279,5891
+Cluster 2,"Columbia Heights, Mt. Pleasant, Pleasant Plains, Park View",SY18-19,2236,0.36,2289,0.39,936,0.15,8233,16466
+Cluster 20,"North Michigan Park, Michigan Park, University Heights",SY18-19,130,0.1,371,0.29,191,0.15,1122,2244
+Cluster 21,"Edgewood, Bloomingdale, Truxton Circle, Eckington",SY18-19,342,0.12,1196,0.43,420,0.15,6086,12172
+Cluster 22,"Brookland, Brentwood, Langdon",SY18-19,242,0.1,1053,0.43,364,0.15,2755,5189
+Cluster 23,"Ivy City, Arboretum, Trinidad, Carver Langston",SY18-19,321,0.11,1672,0.57,495,0.17,3383,6735
+Cluster 24,"Woodridge, Fort Lincoln, Gateway",SY18-19,76,0.05,490,0.35,191,0.14,512,512
+Cluster 25,"Union Station, Stanton Park, Kingman Park",SY18-19,81,0.03,991,0.31,430,0.13,5003,9778
+Cluster 26,"Capitol Hill, Lincoln Park",SY18-19,49,0.02,661,0.24,285,0.1,4002,7454
+Cluster 27,"Near Southeast, Navy Yard",SY18-19,N<10,N<10,139,0.34,72,0.17,725,1151
+Cluster 28,Historic Anacostia,SY18-19,21,0.01,1011,0.7,271,0.18,679,1358
+Cluster 3,"Howard University, Le Droit Park, Cardozo/Shaw",SY18-19,86,0.14,253,0.42,86,0.14,1234,2048
+Cluster 30,"Mayfair, Hillbrook, Mahaning Heights",SY18-19,74,0.04,1169,0.57,356,0.17,1640,1640
+Cluster 31,"Deanwood, Burrville, Grant Park, Lincoln Heights, Fairmont Heights",SY18-19,90,0.03,1962,0.58,634,0.18,3672,7344
+Cluster 32,"River Terrace, Benning, Greenway, Dupont Park",SY18-19,94,0.03,1846,0.61,535,0.18,1966,2499
+Cluster 33,"Capitol View, Marshall Heights, Benning Heights",SY18-19,171,0.04,2561,0.56,757,0.16,3368,6019
+Cluster 34,"Twining, Fairlawn, Randle Highlands, Penn Branch, Fort Davis Park, Fort Dupont",SY18-19,57,0.02,1707,0.54,504,0.16,1752,1752
+Cluster 35,"Fairfax Village, Naylor Gardens, Hillcrest, Summit Park",SY18-19,N<10,N<10,418,0.44,168,0.17,120,120
+Cluster 36,"Woodland/Fort Stanton, Garfield Heights, Knox Hill",SY18-19,18,0.01,1695,0.75,455,0.2,1382,2764
+Cluster 37,"Sheridan, Barry Farm, Buena Vista",SY18-19,17,0.01,1615,0.67,467,0.19,3638,6267
+Cluster 38,"Douglas, Shipley Terrace",SY18-19,41,0.01,2613,0.67,763,0.19,1196,2117
+Cluster 39,"Congress Heights, Bellevue, Washington Highlands",SY18-19,82,0.01,5453,0.67,1466,0.17,8350,16176
+Cluster 4,"Georgetown, Burleith/Hillandale",SY18-19,38,0.17,13,0.06,19,0.09,996,996
+Cluster 5,"West End, Foggy Bottom, GWU",SY18-19,12,0.1,14,0.11,N<10,N<10,1433,2394
+Cluster 6,"Dupont Circle, Connecticut Avenue/K Street",SY18-19,66,0.19,18,0.05,26,0.08,190,190
+Cluster 7,"Shaw, Logan Circle",SY18-19,379,0.25,671,0.45,223,0.15,1943,3570
+Cluster 8,"Downtown, Chinatown, Penn Quarters, Mount Vernon Square, North Capitol Street",SY18-19,120,0.11,637,0.58,191,0.17,1351,2509
+Cluster 9,"Southwest Employment Area, Southwest/Waterfront, Fort McNair, Buzzard Point",SY18-19,50,0.04,689,0.59,240,0.2,993,1986
