@@ -1,21 +1,15 @@
 from flask import Flask, Response, request, jsonify, render_template
 
+#Working with the mongodb
 from flask_pymongo import PyMongo
-
 import pymongo
 
 from bson import ObjectId
-
 import numpy as np
-#MPLD3 lets us make an html of a matplotlib plot:
 import matplotlib.pyplot as plt, mpld3
 import seaborn as sns
 import pandas as pd
-#Mapping Specific imports:
-# import json 
-# import requests
-# from shapely.geometry import shape, Point
-# import folium
+
 
 
 #This is supposed to help with crashing
@@ -23,11 +17,9 @@ import matplotlib
 matplotlib.use('Agg')
 
 #initialize the flask app
-
-port = 27017
-db_name = "myDatabase"
-
 app = Flask('reporting_app')
+
+#Try to set up the MongoDB connection:
 try:
     app.config["MONGO_URI"] = f"mongodb+srv://dishAdmin:iamhungry@godishapp.bzsnd.mongodb.net/atx_smallbusiness_db?retryWrites=true&w=majority"
     mongo = PyMongo(app)
@@ -49,6 +41,7 @@ print(mongo.db)
 print('#####')
 print('\n')
 
+#Try to find the info of one business:
 try:
     #Define a business: (Will error out if no data is found)
     business = mongo.db.businesses.find_one_or_404({"businessId": biz_id})
@@ -80,6 +73,7 @@ try:
 except:
     print("No business data able to be collected from the database.")
 
+#Retrieving all the data for a specific zipcode:
 try:
     zipcode_entries = mongo.db.businesses.find({'postalCode':78741})
     for i in range(3):
@@ -97,13 +91,27 @@ except:
 #Use the below if following pymongo tutorial https://pymongo.readthedocs.io/en/stable/tutorial.html
 #client = pymongo.MongoClient("mongodb+srv://dishAdmin:iamhungry@godishapp.bzsnd.mongodb.net/atx_smallbusiness_db?retryWrites=true&w=majority")
 
+#Function for plotting:
+def plot_local_stars(df, zipcode):
+    x_vals = [0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0]
+    freq = df['stars'].value_counts()
+    y_vals = [freq[i] if i in freq.index else 0 for i in x_vals]
+    
+    plt.figure(figsize=(10, 6))
+    plt.xlabel('Star Rating')
+    plt.ylabel('Count', size=18)
+    sns.despine(left=True)
+    sns.set(style="darkgrid")
+    plt.xticks(size=18)
+    plt.yticks(size=14)
+    sns.color_palette("crest", as_cmap=True)
+    sns.barplot(data = df, x = x_vals, y = y_vals, color='#F79E1B')
+    plt.savefig(f'./static/img/{zipcode}_star_rating_dist.png')
+
 ### ROUTES / WEBPAGES ###
 
-#First route: Hello world
-#Returns a simple string
 @app.route("/")
 def home():
-    #total_swipes = mongo.db.business.aggregate[]
     return render_template("index.html")
 
 @app.route("/index.html")
@@ -128,11 +136,34 @@ def res_page():
 def res_page_3():
     return render_template("/res_page_3.html", restaurant_name = 'The Jackalope')
 
-# #Route 4: show user a form
-# @app.route("/form")
-# def form():
-#     return render_template("form.html")
+@app.route("/submit")
+def make_graph():
+    #Read in the user arguments:
+    user_input = request.args
+    zipcode = user_input['zipcode']
+    print(zipcode)
+    print(type(zipcode))
+    #Find the entries with the matching zipcodes:
+    zipcode_entries = mongo.db.businesses.find({'postalCode':int(zipcode)})
+    print(zipcode_entries.count())
+    zip_list = []
+    for i in range(zipcode_entries.count()):
+        zip_list.append(zipcode_entries[i])
+    zip_df = pd.DataFrame(zip_list)
+    
+    #Some debugging
+    print('\n')
+    print('#####')
+    print((zip_df.columns))
+    print('#####')
+    print('\n')
 
+
+    print(zip_df['stars'])
+    #Update the local stars plot picture:
+    plot_local_stars(zip_df, zipcode)
+
+    return render_template("/res_page_3.html", restaurant_name = 'The Jackalope', zipcode = zipcode)
 # #route 5: accept form submission and handle it
 # @app.route("/submit")
 # def make_graph():
