@@ -163,6 +163,8 @@ def make_graph():
     #Update the local stars plot picture:
     plot_local_stars(zip_df, zipcode)
 
+    
+
     return render_template("/res_page_3.html", restaurant_name = 'The Jackalope', zipcode = zipcode)
 # #route 5: accept form submission and handle it
 # @app.route("/submit")
